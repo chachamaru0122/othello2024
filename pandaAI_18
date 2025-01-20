@@ -94,9 +94,6 @@ class PandaAI(object):
         x, y = random_place(board, stone)
         return x, y
 
-
-!pip install -U kogi-canvas
-
 from kogi_canvas import play_othello, PandaAI
 
 BLACK=1
